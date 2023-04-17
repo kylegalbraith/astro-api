@@ -30,7 +30,6 @@ jobs:
           tags: drmrbrewer/astro-api,drmrbrewer/astro-api:v20
           # this is a multi-platform build... specify required platforms here:
           platforms: linux/amd64,linux/arm64
-          context: ./
           # which (of several) Dockerfiles to use for the build:
           file: Dockerfile-captain
           # following is to avoid an 'unknown/unknown' entry for 'OS/arch' showing (in addition to the ones you ask for) in the registry UI (probably just cosmetic, but annoying):
