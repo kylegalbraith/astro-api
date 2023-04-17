@@ -32,7 +32,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           # which (of several) Dockerfiles to use for the build:
           file: "Dockerfile-captain"
-          context: /
           # following is to avoid an 'unknown/unknown' entry for 'OS/arch' showing (in addition to the ones you ask for) in the registry UI (probably just cosmetic, but annoying):
           # https://github.com/orgs/community/discussions/45969
           # https://docs.docker.com/build/attestations/#creating-attestations
