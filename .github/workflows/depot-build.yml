@@ -1,4 +1,5 @@
 # based on: https://depot.dev/docs/integrations/github-actions#build-multi-platform-images-natively-without-emulation
+# see docs at: https://github.com/depot/build-push-action
 
 name: depot-build
 
